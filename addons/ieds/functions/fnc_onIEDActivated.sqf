@@ -18,9 +18,9 @@ call _getMasterIED;
 private _chain = _logic getvariable [QGVAR(collection), []];
 {
     private _iedLogic = _x;
-	if (_iedLogic != _originalLogic) then {
-		_iedLogic setvariable ["iedActivationType", -1]; // disable all other activation methods, we are blowing the entire chain already anway
-	};
+    if (_iedLogic != _originalLogic) then {
+        _iedLogic setvariable ["iedActivationType", -1]; // disable all other activation methods, we are blowing the entire chain already anway
+    };
 
     private _trigger = _iedLogic getvariable [QGVAR(linkedIED), objNull];
     if (!(isNull _trigger)) then {
