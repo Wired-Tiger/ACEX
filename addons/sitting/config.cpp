@@ -5,13 +5,15 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
-        authors[] = {"Glowbal"};
+        requiredAddons[] = {"acex_main", "ace_interaction"};
+        authors[] = {"Jonpas"};
         author = ACECSTRING(common,ACETeam);
         url = ACECSTRING(main,URL);
         VERSION_CONFIG;
     };
 };
 
+#include "ACE_Settings.hpp"
 #include "CfgEventHandlers.hpp"
-#include "CfgModuleCategories.hpp"
+#include "CfgMoves.hpp"
+#include "CfgVehicles.hpp"

@@ -5,8 +5,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ace_common"};
-        authors[] = {"Glowbal"};
+        requiredAddons[] = {"acex_main"};
+        authors[] = {"Jonpas", "esteldunedain"};
         author = ACECSTRING(common,ACETeam);
         url = ACECSTRING(main,URL);
         VERSION_CONFIG;
@@ -14,4 +14,5 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgModuleCategories.hpp"
+#include "ACE_Settings.hpp"
+#include "CfgVehicles.hpp"
