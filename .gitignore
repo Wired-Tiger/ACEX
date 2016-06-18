@@ -1,3 +1,4 @@
+@acex/*
 release/*
 *.cache
 *.pbo
@@ -6,3 +7,4 @@ texHeaders.bin
 *.swo
 *.biprivatekey
 Thumbs.db
+acex_*.zip
